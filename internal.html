@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+
+    <style>
+        /* Aturan umum untuk semua elemen */
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Contoh penggunaan class selector (.) */
+        .selector-class1 p {
+            text-align: center;
+            color: red;
+        }
+
+        .selector-class2 {
+            text-align: center;
+            color: red;
+        }
+
+        .selector-class3 p {
+            color: red;
+            text-align: right;
+        }
+
+        /* Contoh penggunaan ID selector (#) */
+        #selector-id {
+            color: red;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contoh selector dengan class -->
+    <h1>Selector Element :</h1>
+    <div class="selector-class1">
+        <p>Every paragraph will be affected by the style.</p>
+        <p id="para1">Me too!</p>
+        <p>And me!</p>
+    </div>
+    <br>
+    <hr>
+
+    <h1>Selector Class :</h1>
+    <div class="selector-class2">
+        <h1>Red and center-aligned heading</h1>
+        <p>Red and center-aligned paragraph.</p>
+    </div>
+    <br>
+
+    <div class="selector-class3">
+        <h1>This heading will not be affected</h1>
+        <p>This paragraph will not be affected either.</p>
+    </div>
+    <br>
+    <hr>
+
+    <!-- Contoh selector dengan ID -->
+    <h1>Selector ID :</h1>
+    <div>
+        <p id="selector-id">Hello World!</p>
+        <p>This paragraph is not affected by the style.</p>
+    </div>
+    <br>
+    <hr>
+</body>
+</html>
