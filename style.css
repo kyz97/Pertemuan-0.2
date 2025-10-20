@@ -1,0 +1,51 @@
+/* Style dasar untuk halaman */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+}
+
+/* Judul utama halaman */
+h1 {
+    color: navy;
+    text-align: center;
+    margin-left: 0;
+}
+
+/* Subjudul dengan latar abu-abu muda */
+h2 {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+/* Garis pembatas antar bagian */
+hr {
+    margin: 25px 0;
+}
+
+/* Bagian hasil latihan atau contoh */
+.hasil {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Paragraf dengan class tertentu */
+p.date {
+    text-align: right;
+}
+
+p.main {
+    text-align: justify;
+}
+
+/* Jenis font serif */
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Jenis font sans-serif */
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
