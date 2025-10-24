@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contoh Selamat Datang</title>
+  <style>
+    :root{
+      --blue:#0a61d6;
+      --border:#222;
+      --maxw:800px;
+      --pad:50px;
+    }
+
+    body{
+      font-family:"Georgia","Times New Roman",serif;
+      background:#fff;
+      color:#222;
+      margin:40px;
+      display:flex;
+      justify-content:center;
+    }
+
+    .page{
+      width:100%;
+      max-width:var(--maxw);
+      box-sizing:border-box;
+    }
+
+
+    .top-bar{
+      border:6px solid var(--blue);
+      padding:8px;
+      background:linear-gradient(180deg,#ffffff 0%, #f7fbff 100%);
+      margin-bottom:22px;
+    }
+    .top-bar .title{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:48px;
+      font-size:28px;
+      font-weight:700;
+      color:#0f2940;
+      letter-spacing:0.5px;
+      text-transform:lowercase;
+    }
+
+
+    .decorative{
+      border:10px dotted var(--border);
+      padding:20px;
+      position:relative;
+      background:#fff;
+      text-align:center;
+      margin-bottom:40px;
+    }
+
+
+    .shark-line{
+      width:100%;
+      overflow:hidden;
+      white-space:nowrap;
+      font-size:20px;
+      line-height:1;
+      margin:8px 0;
+      display:block;
+      text-align:center;
+    }
+
+    .content p{
+      max-width:560px;
+      margin:24px auto;
+      font-size:15px;
+      line-height:1.6;
+      color:#333;
+      font-family:"Times New Roman",serif;
+    }
+
+
+    .small-left{
+      font-size:12px;
+      color:#555;
+      margin-top:12px;
+      text-align:left;
+    }
+
+    @media (max-width:520px){
+      .top-bar .title{ font-size:20px; height:44px; }
+      .content p{ padding:0 12px; }
+      .shark-line{ font-size:16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top-bar">
+      <div class="title">selamat datang</div>
+    </div>
+
+    <div class="decorative">
+      <div class="shark-line">🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎ 🦈 ︎   ▪︎</div>
+
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, eos maxime
+          tenetur asperiores. Facere saepe asperiores rem illum temporibus ex blanditiis
+          veritatis? Expedita deserunt earum iste eveniet, quaerat facere magni!
+        </p>
+      </div>
+
+      <div class="shark-line">🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎ 🦈 ▪︎︎</div>
+    </div>
+
+    <div class="small-left">Cinta di sekelilingku❤️</div>
+  </div>
+</body>
+  </html>
